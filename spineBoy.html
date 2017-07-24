@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spine-boy</title>
+    <script src="phaser.js"></script>
+    <script src="phaser-spine.js"></script>
+</head>
+<body>
+<script>
+    var game = new Phaser.Game(480, 400, Phaser.AUTO, '', {init: init, preload: preload, create: create});
+    var tween;
+    function init() {
+
+    }
+
+    function preload() {
+        game.plugins.add(PhaserSpine.SpinePlugin);
+        game.stage.disableVisibilityChange = true;
+        game.load.spine('spineboy', "assets/spineboy.json");
+        game.load.image('footstep', 'assets/footstep.png');
+    }
+
+    function create() {
+        //create the spine object
+        spineboy = game.add.spine(game.width/2, game.height, "spineboy");
+        spineboy.setAnimationByName(0, "walk", true);
+        spineboy.scale.set(0.5);
+        // set up the mixes!
+        spineboy.setMixByName("run", "jump", 0.2);
+        spineboy.setMixByName("jump", "run", 0.4);
+
+        notificationLeft = game.add.image(0, 0, 'footstep');
+        notificationLeft.alpha = 0;
+        notificationRight = game.add.image(game.width, 0, 'footstep');
+        notificationRight.alpha = 0;
+        notificationRight.anchor.x = 1;
+
+        spineboy.onEvent.add(function (i,e) {
+            if (tween){
+                tween.stop();
+                console.log('1111111111=======  name=' + e.data.name + ' int=' + e.intValue + ' float=' + e.floatValue + ' string=' + e.stringValue);
+            }else{
+                console.log('2222222222=======  name=' + e.data.name + ' int=' + e.intValue + ' float=' + e.floatValue + ' string=' + e.stringValue);
+                if (e.intValue === 0) {
+                    notificationLeft.alpha = 1;
+                    notificationRight.alpha = 0;
+                    tween = game.add.tween(notificationLeft).to( { alpha: 0 }, 300, Phaser.Easing.Linear.None, true, 0, 0, false);
+                } else {
+                    notificationLeft.alpha = 0;
+                    notificationRight.alpha = 1;
+                    tween = game.add.tween(notificationRight).to( { alpha: 0 }, 300, Phaser.Easing.Linear.None, true, 0, 0, false);
+                }
+            }
+        });
+
+        running = false;
+        game.input.onDown.add(function () {
+            if (running) {
+                spineboy.setAnimationByName(0, "walk", true);
+            } else {
+                spineboy.addAnimationByName(0, "run", true);
+            }
+            running = !running;
+        });
+        var space_key = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+        space_key.onDown.add(jump,this);
+    }
+    function jump() {
+        spineboy.setAnimationByName(0,'jump',false);
+        setTimeout(function () {
+            if (running){
+                spineboy.setAnimationByName(0,'run',true);
+            }else{
+                spineboy.setAnimationByName(0,'walk',true);
+            }
+        },1000);
+    }
+</script>
+</body>
+</html>
