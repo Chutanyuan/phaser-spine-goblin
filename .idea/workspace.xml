@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368bc5c2-63f4-4edf-bbed-10273fce64ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spineBoy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spineBoy.html" afterPath="$PROJECT_DIR$/spineBoy.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,22 +18,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goblins.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goblins.html">
+      <file leaf-file-name="spineBoy.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spineBoy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="185">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#846#893#0" expanded="false" />
+                <element signature="e#3902#3928#0" expanded="false" />
+                <element signature="e#4471#4505#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spineBoy.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spineBoy.html">
+      <file leaf-file-name="buddy_skeleton.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/buddy_skeleton.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="30" column="50" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+              <folding>
+                <element signature="e#137#2409#0" expanded="false" />
+                <element signature="e#2420#4756#0" expanded="false" />
+                <element signature="n#!!block;n#slots#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#arm_right_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#root#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#legs_rest#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#body#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#arm_right_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#hand_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#arm_left_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#arm_left_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#head#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#hair#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#brow_left#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#brow_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#eye_left#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#eye_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#face#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#facial_gear#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#body_gear#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#pelvis#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#leg_right_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#leg_right_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+                <element signature="e#26918#27060#0" expanded="false" />
+                <element signature="e#27079#27233#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +80,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>walk</find>
+      <find>run</find>
+      <find>foot_right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,6 +91,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/goblins.html" />
+        <option value="$USER_HOME$/Downloads/phaser-spine-master/example/buddy.html" />
         <option value="$PROJECT_DIR$/spineBoy.html" />
       </list>
     </option>
@@ -70,9 +103,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="58" />
     <option name="y" value="23" />
-    <option name="width" value="1077" />
+    <option name="width" value="1310" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,6 +153,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,24 +261,27 @@
       <updated>1500881709039</updated>
       <workItem from="1500881710383" duration="4360000" />
       <workItem from="1500887553880" duration="1858000" />
+      <workItem from="1500945500297" duration="1194000" />
+      <workItem from="1500972791625" duration="121000" />
+      <workItem from="1501032711376" duration="11395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6218000" />
+    <option name="totallyTimeSpent" value="18928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1077" height="877" extended-state="0" />
+    <frame x="58" y="23" width="1310" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43276516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21411948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -268,6 +304,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/goblins.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spineBoy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#846#893#0" expanded="false" />
+            <element signature="e#3902#3928#0" expanded="false" />
+            <element signature="e#4471#4505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goblins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spineBoy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#846#893#0" expanded="false" />
+            <element signature="e#3902#3928#0" expanded="false" />
+            <element signature="e#4471#4505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goblins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spineBoy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#846#893#0" expanded="false" />
+            <element signature="e#3902#3928#0" expanded="false" />
+            <element signature="e#4471#4505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goblins.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -278,7 +374,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#846#893#0" expanded="false" />
+            <element signature="e#3902#3928#0" expanded="false" />
+            <element signature="e#4471#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -321,31 +421,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/goblins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spineboy.atlas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4124">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/phaser-spine-master/example/spineboy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="53" column="98" lean-forward="true" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spineboy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="130" column="58" lean-forward="false" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
+          <folding>
+            <element signature="e#2237#3665#0" expanded="false" />
+            <element signature="n#!!block;n#skins#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#death#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#hit#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#jump#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#run#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#shoot#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#test#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#walk#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/buddy_skeleton.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/buddy_skeleton.json">
+    <entry file="file://$PROJECT_DIR$/assets/spineboy-old.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spineboy-old.atlas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goblins.html">
+    <entry file="file://$PROJECT_DIR$/assets/buddy_skeleton.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="110">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="e#137#2409#0" expanded="false" />
+            <element signature="e#2420#4756#0" expanded="false" />
+            <element signature="n#!!block;n#slots#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#arm_right_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#root#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#legs_rest#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#body#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#arm_right_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#hand_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#arm_left_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#arm_left_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#head#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#hair#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#brow_left#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#brow_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#eye_left#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#eye_right#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#face#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#facial_gear#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#body_gear#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pelvis#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#leg_right_top#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#leg_right_bottom#0;n#!!block;n#bones#0;n#!!block;n#idle#0;n#!!block;n#animations#0;n#!!top" expanded="false" />
+            <element signature="e#26918#27060#0" expanded="false" />
+            <element signature="e#27079#27233#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/phaser-spine-master/example/buddy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spineBoy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="185">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#846#893#0" expanded="false" />
+            <element signature="e#3902#3928#0" expanded="false" />
+            <element signature="e#4471#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
